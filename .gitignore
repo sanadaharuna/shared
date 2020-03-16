@@ -1,3 +1,5 @@
 mysql/data/*
+phpmyadmin_data/*
 proxy/log/*
 *.env
+.htpasswd
