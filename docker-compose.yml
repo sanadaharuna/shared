@@ -17,7 +17,7 @@ services:
     container_name: phpmyadmin
     volumes:
       - phpmyadmin_data:/var/www/html/
-      - "./pma/conf.d/:/usr/local/etc/php/conf.d/"
+      # - "./pma/conf.d/:/usr/local/etc/php/conf.d/"
     env_file:
       - ./phpmyadmin.env
     restart: always
