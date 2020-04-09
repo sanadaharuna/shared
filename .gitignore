@@ -4,3 +4,5 @@ proxy/log/*
 proxy/certs/*
 *.env
 .htpasswd
+reverse_proxy_local.conf
+reverse_proxy.conf.bak
