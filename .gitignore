@@ -7,3 +7,4 @@ proxy/certs/*
 .htpasswd
 reverse_proxy_local.conf
 reverse_proxy.conf.bak
+mysql_data
