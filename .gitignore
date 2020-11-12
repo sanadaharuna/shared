@@ -3,8 +3,7 @@ mariadb/data/*
 phpmyadmin_data/*
 proxy/log/*
 proxy/certs/*
+proxy/conf.d_local
 *.env
 .htpasswd
-reverse_proxy_local.conf
-reverse_proxy.conf.bak
 mysql_data

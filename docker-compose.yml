@@ -1,4 +1,6 @@
-version: "2"
+# version: "2"
+version: "3"
+
 services:
   mysql:
     build: ./mysql
@@ -15,13 +17,13 @@ services:
     image: nginx:1.17.9-alpine
     container_name: proxy
     volumes:
-      - "./proxy/conf.d/:/etc/nginx/conf.d/"
+      # - "./proxy/conf.d/:/etc/nginx/conf.d/"
       - "./proxy/html/:/usr/share/nginx/html/"
       - "./proxy/log/:/var/log/nginx/"
       - "./proxy/certs/:/etc/nginx/certs/"
-    ports:
-      - 80:80
-      - 443:443
+    # ports:
+    #   - 80:80
+    #   - 443:443
     environment:
       TZ: Asia/Tokyo
     restart: always
